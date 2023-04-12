@@ -1,0 +1,55 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    margin: 0 3%;
+}
+
+.botaoControle{
+    background-color:rgb(141, 11, 11);
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.controle{
+    display: flex;
+    align-items: inherit;
+    gap: 5px;
+}
+
+.descricao{
+    color: white;
+    font-weight: 100;
+}
+
+.imagemProduto{
+    height: 400px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto{
+    align-items: center;
+    background-color: rgb(141, 11, 11);
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 5px;
+    width: 20%;
+}
+
+.tituloProduto{
+    font-weight: 700;
+}
